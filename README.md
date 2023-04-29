@@ -2,6 +2,7 @@
 **My personal dotfiles for Neovim**
 ![](https://img-blog.csdnimg.cn/948390abb7aa4b20ad51082c77f80623.png#pic_center)
 ## A simple & extensible conf of Neovim on Linux
+## View /nvim/help/keymap.txt for instructions
 
 > My environment:
 > Ubuntu 20.04
