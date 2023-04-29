@@ -1,0 +1,99 @@
+<L>代表<leader>, 我将其默认设置为space
+<CR>代表回车, 即\r, 将光标移到行开头
+#<LF>代表换行, 即\n, 将光标移到下一行相同位置
+<M-...>代表Meta和...的组合键
+<A-...>与Meta相同
+<C-...>代表Ctrl和...的组合键
+<BS>代表空格
+
+
+# DAP Debugger
+# https://github.com/mfussenegger/nvim-dap
+F5			开启调试
+F10			step over单步执行(跳过子函数)
+F11			step into单步执行
+F12			steo out一步运行子函数
+<L>b		切换断点
+<L>dr		打开REPL交互式窗口
+-----------------------------------------
+<L>dh		hover窗口
+<L>dp		preview窗口
+<L>df		frames中央悬浮
+<L>ds		scope中央悬浮
+
+
+# MultiCursor 多光标
+# https://github.com/terryma/vim-multiple-cursors
+<C-n>		在该单词开头新增光标
+<C-Up/Down>	在该行和下/上一行的同一个位置添加光标
+
+
+# Telescope 文件搜索
+# https://github.com/nvim-telescope/telescope.nvim
+<L>ff		搜索文件
+<L>fg		Live Grep #需安装ripgrep
+<L>fb		搜索缓冲区
+<L>fh		帮助
+
+
+# Trouble 问题检测
+# https://github.com/folke/trouble.nvim
+--------------Trouble菜单内-------------
+q/<esc>		退出
+r			刷新
+<Tab>		跳转到有问题的文件
+o			跳转并关闭Trouble菜单
+<C-h>		横向分割打开文件
+<C-v>		纵向分割打开文件
+<C-t>		在新缓冲区打开文件
+
+
+# Windows 窗口
+# https://github.com/anuvyklack/windows.nvim
+<L>q		退出当前窗口
+<L>o		关闭其他所有窗口
+<L>w		切换到下一个窗口
+<L>x		当前与下一个窗口交换
+<L>h		横向分割
+<L>v		纵向分割
+<L>m		窗口最大化
+<L>_		高度最大化
+<L>|		宽度最大化
+<L>=		所有窗口大小相等
+<C-w>+/-	增加/减少高度
+<C-w>>/<	增加/减少宽度
+<C-w>hjkl	切换指定方向窗口
+
+
+# cmp 自动补全
+# https://github.com/hrsh7th/nvim-cmp
+;			不需要自动补全
+<C-f>		帮助文档向下翻4行
+<C-b>		帮助文档向上翻4行
+
+
+# vim-easy-align 局部formatter #默认关闭
+详见https://github.com/junegunn/vim-easy-align
+
+
+# LSP_Signature LSP语法指示器
+# https://github.com/ray-x/lsp_signature.nvim
+<C-k>		在normal模式中显示语法
+
+
+# Neo-Tree 树状文件目录显示器
+# https://github.com/nvim-neo-tree/neo-tree.nvim
+<L>t		打开Neotree(右侧)
+<L>T		打开Neotree(浮窗)
+--------------Neotree菜单内部------------
+详见https://github.com/nvim-neo-tree/neo-tree.nvim#quickstart
+
+
+# Comment 多语言添加注释
+# https://github.com/numToStr/Comment.nvim
+gcc			以Line注释本行
+gbc			以Block注释本行(选中)
+[n]gcc		以Line注释后面n行
+[n]gbc		以Block注释后面n行
+[n]gc[opt]	以Line注释opt方向的n行
+[n]gb[opt]	以Block注释opt方向的n行
