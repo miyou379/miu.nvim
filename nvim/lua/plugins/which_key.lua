@@ -30,7 +30,22 @@ return {
                     h = ("Horizontal Split"),
                     v = ("Vertical Split"),
                     q = ("quit"),
-                }
+                },
+                ["<leader>h"] = {
+                    name = "Gitsigns",
+                    s = ("Stage hunk"),
+                    u = ("Undo stage hunk"),
+                    r = ("Reset hunk"),
+                    S = ("Stage buffer"),
+                    R = ("Reset buffer"),
+                    p = ("Preview hunks"),
+                    b = ("Toggle blame"),
+                    d = ("Diff this"),
+                    D = ("Toggle deleted"),
+                },
+                ["<leader>d"] = {
+                    name = "DAP",
+                },
             })
         end,
 	},

@@ -18,7 +18,6 @@ keymap.set("n", "<leader>q", "<C-w>q") -- 关闭当前窗口
 keymap.set("n", "<leader>o", "<C-w>o", { desc = 'close others' }) -- 关闭其他所有窗口
 keymap.set("n", "<leader>w", "<C-w><C-w>") -- 切换到另一个窗口
 keymap.set("n", "<leader>x", "<C-w>x", { desc = 'exchange next' }) -- 当前与下一个窗口交换
-keymap.set("n", "<leader>h", "<C-w>s") -- 水平方向分割
 keymap.set("n", "<leader>v", "<C-w>v") -- 垂直方向分割
 keymap.set("n", "<leader>m", "<C-w>z", { desc = 'maximum' }) -- 窗口最大化
 keymap.set("n", "<leader>_", "<C-w>_", { desc = 'max height' }) -- 高度最大化

@@ -2,10 +2,6 @@ return {
     {
         'akinsho/bufferline.nvim',
         version = 'v3.*',
-        after = {
-            "catppuccin",
-        --     "rose-pine",
-        },
         event = 'ColorScheme',
         dependencies = 'nvim-tree/nvim-web-devicons',
         config = function()

@@ -54,7 +54,6 @@ o			跳转并关闭Trouble菜单
 <L>o		关闭其他所有窗口
 <L>w		切换到下一个窗口
 <L>x		当前与下一个窗口交换
-<L>h		横向分割
 <L>v		纵向分割
 <L>m		窗口最大化
 <L>_		高度最大化
@@ -63,6 +62,7 @@ o			跳转并关闭Trouble菜单
 <C-w>+/-	增加/减少高度
 <C-w>>/<	增加/减少宽度
 <C-w>hjkl	切换指定方向窗口
+<C-w>s		横向分割
 
 
 # cmp 自动补全
@@ -97,3 +97,18 @@ gbc			以Block注释本行(选中)
 [n]gbc		以Block注释后面n行
 [n]gc[opt]	以Line注释opt方向的n行
 [n]gb[opt]	以Block注释opt方向的n行
+
+
+# Gitsigns Git高亮, 修改工具
+# https://github.com/lewis6991/gitsigns.nvim
+]c			next hunk
+[c			previous hunk
+<L>hs		stage hunk
+<L>hu		undo stage hunk
+<L>hr		reset hunk
+<L>hS		stage buffer
+<L>hR		reset stage buffer
+<L>hp		preview all hunks
+<L>hb		toggle line blame
+<L>hd		diff this
+<L>hD		toggle deleted
